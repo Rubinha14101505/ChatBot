@@ -1,0 +1,14 @@
+version: "3.1"
+
+stories:
+
+- story: buscar por titulo
+  steps:
+  - intent: buscar_titulo
+  - action: action_buscar_titulo
+
+- story: buscar por autor
+  steps:
+  - intent: buscar_autor
+  - action: action_buscar_autor
+ 

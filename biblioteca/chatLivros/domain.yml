@@ -1,0 +1,24 @@
+version: "3.1"
+
+intents:
+ - saudacao
+ - buscar_titulo
+ - buscar_autor
+ - despedida
+
+entities:
+ - titulo
+ - autor
+
+slots:
+  titulo:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: titulo
+
+  autor:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: autor

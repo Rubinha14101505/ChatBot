@@ -1,0 +1,49 @@
+version: "3.1"
+nlu:
+- intent: cumprimentar
+  examples: |
+    - oi
+    - oiá
+    - bom dia
+    - bom tarde
+    - boa noite
+    - e ai?
+    - tudo bem?
+
+- intent: despedir
+  examples: |
+    - tchau
+    - até logo
+    - adeus
+    - até a próxima
+
+- intent: buscar_titulo
+  examples: |
+   - A Biblioteca da Meia-Noite
+   - É assim que acaba.
+   - É assim que começa.
+   - Verity
+   - A cirurgiã
+   - Dom Quixote 
+   - O Pequeno Príncipe
+   - Metamorfose
+   - A Revolução dos Bichos
+   - Morte no Nilo
+   -  O Senhor dos Anéis
+   - Harry Potter
+   - Duna
+   - Jogos Vorazes
+
+- intent: buscar_autor
+  examples: |
+   - Matt Haig 
+   - Colleen Hoover
+   - Tess Gerritsen
+   - Miguel de Cervantes
+   - Antoine de Saint-Exupéry 
+   - Franz Kafka 
+   - George Orwell
+   - Agatha Christie
+   - J.R.R. Tolkien 
+   - Frank Herbert
+   - Suzanne Collins   
